@@ -5,13 +5,6 @@
     },
     "done": true
   },
-  "biomesoplenty:biomesoplenty/all_biomes": {
-    "criteria": {
-      "cold_desert": "2024-06-17 20:32:25 -0700",
-      "coniferous_forest": "2024-06-17 20:32:04 -0700"
-    },
-    "done": false
-  },
   "lootr:root": {
     "criteria": {
       "always_true": "2024-06-17 20:32:03 -0700"
@@ -24,21 +17,29 @@
     },
     "done": true
   },
-  "biomesoplenty:biomesoplenty/root": {
-    "criteria": {
-      "coniferous_forest": "2024-06-17 20:32:04 -0700"
-    },
-    "done": true
-  },
   "betterdungeons:root": {
     "criteria": {
       "always": "2024-06-17 20:32:03 -0700"
     },
     "done": true
   },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "cold_desert": "2024-06-17 20:32:25 -0700",
+      "coniferous_forest": "2024-06-17 20:32:04 -0700"
+    },
+    "done": false
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "coniferous_forest": "2024-06-17 20:32:04 -0700"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:frozen_river": "2024-06-17 20:32:22 -0700"
+      "minecraft:frozen_river": "2024-06-17 20:32:22 -0700",
+      "minecraft:river": "2024-06-17 21:00:06 -0700"
     },
     "done": false
   },
