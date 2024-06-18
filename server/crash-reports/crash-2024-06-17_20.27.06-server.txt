@@ -1,0 +1,133 @@
+---- Minecraft Crash Report ----
+// Don't do that.
+
+Time: 2024-06-17 20:27:06
+Description: Exception in server tick loop
+
+java.lang.IllegalStateException: Failed to initialize server
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:637) ~[server-1.20-20230608.053357-srg.jar%23195!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20-20230608.053357-srg.jar%23195!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:842) ~[?:?] {re:mixin}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20
+	Minecraft Version ID: 1.20
+	Operating System: Windows Server 2022 (amd64) version 10.0
+	Java Version: 17.0.11, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 239045000 bytes (227 MiB) / 788529152 bytes (752 MiB) up to 12884901888 bytes (12288 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Xeon(R) CPU E3-1270 v6 @ 3.80GHz
+	Identifier: Intel64 Family 6 Model 158 Stepping 9
+	Microarchitecture: Kaby Lake
+	Frequency (GHz): 3.79
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: Microsoft Basic Display Adapter
+	Graphics card #0 vendor: (Standard display types) (0x1a03)
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: 0x2000
+	Graphics card #0 versionInfo: DriverVersion=10.0.20348.1
+	Graphics card #1 name: Microsoft Remote Display Adapter
+	Graphics card #1 vendor: Microsoft
+	Graphics card #1 VRAM (MB): 0.00
+	Graphics card #1 deviceId: unknown
+	Graphics card #1 versionInfo: DriverVersion=10.0.20348.2461
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 2.40
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 2.40
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 34730.96
+	Virtual memory used (MB): 13608.63
+	Swap memory total (MB): 2048.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 1 total; -Xmx12G
+	Server Running: true
+	Data Packs: vanilla, mod:elytraslot (incompatible), mod:betterdungeons, mod:puffish_skills, mod:betterwitchhuts, mod:playeranimator (incompatible), mod:betteroceanmonuments, mod:caelus (incompatible), mod:waystones, mod:clumps (incompatible), mod:citadel (incompatible), mod:alexsmobs (incompatible), mod:travelersbackpack, mod:sereneseasons (incompatible), mod:yungsapi, mod:mixinextras (incompatible), mod:betterdeserttemples, mod:balm, mod:carryon (incompatible), mod:luckperms (incompatible), mod:betterfortresses, mod:cloth_config (incompatible), mod:forge, mod:konkrete (incompatible), mod:corpse (incompatible), mod:smoothchunk (incompatible), mod:terrablender (incompatible), mod:biomesoplenty (incompatible), mod:mixinsquared (incompatible), mod:spectrelib (incompatible), mod:yungsbridges, mod:spark (incompatible), mod:curios (incompatible), mod:collective, mod:yungsextras, mod:toughasnails (incompatible), mod:entityculling, mod:betterstrongholds, mod:fancymenu (incompatible), mod:architectury (incompatible), mod:lootr, mod:yet_another_config_lib_v3 (incompatible), mod:cupboard (incompatible), mod:betterendisland, mod:fallingtree (incompatible), mod:t_and_t (incompatible), mod:bettermineshafts, mod:veinmining (incompatible), mod:pumpkillagersquest, mod:betterjungletemples, mod:cristellib (incompatible), mod:betteradvancements (incompatible), T&T Waystone Patch Pack (incompatible)
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	Is Modded: Definitely; Server brand changed to 'forge'
+	Type: Dedicated Server (map_server.txt)
+	ModLauncher: 10.0.8+10.0.8+main.0ef7e830
+	ModLauncher launch target: forgeserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.3.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20-46.0.14.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20-46.0.14.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20-46.0.14.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20-46.0.14.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20-46.0.14.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.8.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.8.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		elytraslot-forge-6.4.0+1.20.1.jar                 |Elytra Slot                   |elytraslot                    |6.4.0+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		YungsBetterDungeons-1.20-Forge-4.0.4.jar          |YUNG's Better Dungeons        |betterdungeons                |1.20-Forge-4.0.4    |DONE      |Manifest: NOSIGNATURE
+		puffish_skills-0.12.2-1.20-forge.jar              |Pufferfish's Skills           |puffish_skills                |0.12.2              |DONE      |Manifest: NOSIGNATURE
+		YungsBetterWitchHuts-1.20-Forge-3.0.3.jar         |YUNG's Better Witch Huts      |betterwitchhuts               |1.20-Forge-3.0.3    |DONE      |Manifest: NOSIGNATURE
+		player-animation-lib-forge-1.0.2-rc1+1.20.jar     |Player Animator               |playeranimator                |1.0.2-rc1+1.20      |DONE      |Manifest: NOSIGNATURE
+		YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar    |YUNG's Better Ocean Monuments |betteroceanmonuments          |1.20-Forge-3.0.4    |DONE      |Manifest: NOSIGNATURE
+		caelus-forge-3.2.0+1.20.1.jar                     |Caelus API                    |caelus                        |3.2.0+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		waystones-forge-1.20-14.1.3.jar                   |Waystones                     |waystones                     |14.1.3              |DONE      |Manifest: NOSIGNATURE
+		Clumps-forge-1.20-11.0.0.2.jar                    |Clumps                        |clumps                        |11.0.0.2            |DONE      |Manifest: NOSIGNATURE
+		citadel-2.4.1-1.20.jar                            |Citadel                       |citadel                       |2.4.1               |DONE      |Manifest: NOSIGNATURE
+		alexsmobs-1.22.5.jar                              |Alex's Mobs                   |alexsmobs                     |1.22.5              |DONE      |Manifest: NOSIGNATURE
+		TravelersBackpack-1.20-9.0.2.jar                  |Traveler's Backpack           |travelersbackpack             |9.0.2               |DONE      |Manifest: NOSIGNATURE
+		SereneSeasons-1.20-9.0.0.42.jar                   |Serene Seasons                |sereneseasons                 |9.0.0.42            |DONE      |Manifest: NOSIGNATURE
+		YungsApi-1.20-Forge-4.0.5.jar                     |YUNG's API                    |yungsapi                      |1.20-Forge-4.0.5    |DONE      |Manifest: NOSIGNATURE
+		mixinextras-forge-0.2.0-beta.6.jar                |MixinExtras                   |mixinextras                   |0.2.0-beta.6        |DONE      |Manifest: NOSIGNATURE
+		YungsBetterDesertTemples-1.20-Forge-3.0.3.jar     |YUNG's Better Desert Temples  |betterdeserttemples           |1.20-Forge-3.0.3    |DONE      |Manifest: NOSIGNATURE
+		balm-forge-1.20.1-7.2.2.jar                       |Balm                          |balm                          |7.2.2               |DONE      |Manifest: NOSIGNATURE
+		carryon-forge-1.20.1-2.1.2.7.jar                  |Carry On                      |carryon                       |2.1.2.7             |DONE      |Manifest: NOSIGNATURE
+		LuckPerms-Forge-5.4.102.jar                       |LuckPerms                     |luckperms                     |5.4.102             |DONE      |Manifest: NOSIGNATURE
+		YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar  |YUNG's Better Nether Fortresse|betterfortresses              |1.20-Forge-2.0.6    |DONE      |Manifest: NOSIGNATURE
+		cloth-config-11.1.118-forge.jar                   |Cloth Config v10 API          |cloth_config                  |11.1.118            |DONE      |Manifest: NOSIGNATURE
+		forge-1.20-46.0.14-universal.jar                  |Forge                         |forge                         |46.0.14             |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		konkrete_forge_1.6.1-2_MC_1.20.jar                |Konkrete                      |konkrete                      |1.6.1               |DONE      |Manifest: NOSIGNATURE
+		corpse-1.20-1.0.3.jar                             |Corpse                        |corpse                        |1.20-1.0.3          |DONE      |Manifest: NOSIGNATURE
+		server-1.20-20230608.053357-srg.jar               |Minecraft                     |minecraft                     |1.20                |DONE      |Manifest: NOSIGNATURE
+		smoothchunk-1.20.1-3.5.jar                        |Smoothchunk mod               |smoothchunk                   |1.20.1-3.5          |DONE      |Manifest: NOSIGNATURE
+		TerraBlender-forge-1.20-3.0.0.163.jar             |TerraBlender                  |terrablender                  |3.0.0.163           |DONE      |Manifest: NOSIGNATURE
+		BiomesOPlenty-1.20-18.0.0.557.jar                 |Biomes O' Plenty              |biomesoplenty                 |18.0.0.557          |DONE      |Manifest: NOSIGNATURE
+		mixinsquared-forge-0.1.2-beta.6.jar               |MixinSquared                  |mixinsquared                  |0.1.2-beta.6        |DONE      |Manifest: NOSIGNATURE
+		spectrelib-forge-0.13.15+1.20.1.jar               |SpectreLib                    |spectrelib                    |0.13.15+1.20.1      |DONE      |Manifest: NOSIGNATURE
+		YungsBridges-1.20-Forge-4.0.3.jar                 |YUNG's Bridges                |yungsbridges                  |1.20-Forge-4.0.3    |DONE      |Manifest: NOSIGNATURE
+		spark-1.10.53-forge.jar                           |spark                         |spark                         |1.10.53             |DONE      |Manifest: NOSIGNATURE
+		curios-forge-5.9.1+1.20.1.jar                     |Curios API                    |curios                        |5.9.1+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		collective-1.20.0-6.57.jar                        |Collective                    |collective                    |6.57                |DONE      |Manifest: NOSIGNATURE
+		YungsExtras-1.20-Forge-4.0.3.jar                  |YUNG's Extras                 |yungsextras                   |1.20-Forge-4.0.3    |DONE      |Manifest: NOSIGNATURE
+		ToughAsNails-1.20-9.0.0.91.jar                    |Tough As Nails                |toughasnails                  |0.0NONE             |DONE      |Manifest: NOSIGNATURE
+		entityculling-forge-1.6.2-mc1.20.1.jar            |EntityCulling                 |entityculling                 |1.6.2               |DONE      |Manifest: NOSIGNATURE
+		YungsBetterStrongholds-1.20-Forge-4.0.3.jar       |YUNG's Better Strongholds     |betterstrongholds             |1.20-Forge-4.0.3    |DONE      |Manifest: NOSIGNATURE
+		fancymenu_forge_2.14.7-3_MC_1.20.jar              |FancyMenu                     |fancymenu                     |2.14.7              |DONE      |Manifest: NOSIGNATURE
+		architectury-9.2.14-forge.jar                     |Architectury                  |architectury                  |9.2.14              |DONE      |Manifest: NOSIGNATURE
+		lootr-forge-1.20-0.7.34.86.jar                    |Lootr                         |lootr                         |0.7.34.85           |DONE      |Manifest: NOSIGNATURE
+		yet-another-config-lib-forge-3.0.1+1.20.jar       |YetAnotherConfigLib           |yet_another_config_lib_v3     |3.0.1+1.20          |DONE      |Manifest: NOSIGNATURE
+		cupboard-1.20.1-2.3.jar                           |Cupboard utilities            |cupboard                      |1.20.1-2.3          |DONE      |Manifest: NOSIGNATURE
+		YungsBetterEndIsland-1.20-Forge-2.0.6.jar         |YUNG's Better End Island      |betterendisland               |1.20-Forge-2.0.6    |DONE      |Manifest: NOSIGNATURE
+		FallingTree-1.20-4.0.3.jar                        |FallingTree                   |fallingtree                   |4.0.3               |DONE      |Manifest: 3c:8e:df:6c:df:a6:2a:9f:af:64:ea:04:9a:cf:65:92:3b:54:93:0e:96:50:b4:52:e1:13:42:18:2b:ae:40:29
+		Towns-and-Towers-1.12-Fabric+Forge.jar            |Towns and Towers              |t_and_t                       |0.0NONE             |DONE      |Manifest: NOSIGNATURE
+		YungsBetterMineshafts-1.20-Forge-4.0.4.jar        |YUNG's Better Mineshafts      |bettermineshafts              |1.20-Forge-4.0.4    |DONE      |Manifest: NOSIGNATURE
+		veinmining-forge-1.4.1+1.20.1.jar                 |Vein Mining                   |veinmining                    |1.4.1+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		pumpkillagersquest-1.20.0-3.2.jar                 |Pumpkillager's Quest          |pumpkillagersquest            |3.2                 |DONE      |Manifest: NOSIGNATURE
+		YungsBetterJungleTemples-1.20-Forge-2.0.5.jar     |YUNG's Better Jungle Temples  |betterjungletemples           |1.20-Forge-2.0.5    |DONE      |Manifest: NOSIGNATURE
+		cristellib-1.1.1-forge.jar                        |Cristel Lib                   |cristellib                    |1.1.1               |DONE      |Manifest: NOSIGNATURE
+		BetterAdvancements-1.20-0.3.2.159.jar             |Better Advancements           |betteradvancements            |0.3.2.159           |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: ed636ec3-f8dc-4ce5-b9c6-29ef5e5c734a
+	FML: 46.0
+	Forge: net.minecraftforge:46.0.14
