@@ -1,109 +1,196 @@
-[17June2024 21:29:14.972] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 46.0.14, --fml.mcVersion, 1.20, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230608.053357, nogui]
-[17June2024 21:29:14.972] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.11 by Oracle Corporation; OS Windows Server 2022 arch amd64 version 10.0
-[17June2024 21:29:15.378] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Data/GitHub/BetterSMP/server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[17June2024 21:29:15.722] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Data\GitHub\BetterSMP\server\libraries\net\minecraftforge\fmlcore\1.20-46.0.14\fmlcore-1.20-46.0.14.jar is missing mods.toml file
-[17June2024 21:29:15.722] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Data\GitHub\BetterSMP\server\libraries\net\minecraftforge\javafmllanguage\1.20-46.0.14\javafmllanguage-1.20-46.0.14.jar is missing mods.toml file
-[17June2024 21:29:15.722] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Data\GitHub\BetterSMP\server\libraries\net\minecraftforge\lowcodelanguage\1.20-46.0.14\lowcodelanguage-1.20-46.0.14.jar is missing mods.toml file
-[17June2024 21:29:15.722] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Data\GitHub\BetterSMP\server\libraries\net\minecraftforge\mclanguage\1.20-46.0.14\mclanguage-1.20-46.0.14.jar is missing mods.toml file
-[17June2024 21:29:15.909] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 12 dependencies adding them to mods collection
-[17June2024 21:29:17.550] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[17June2024 21:29:17.612] [main/ERROR] [mixin/]: Mixin config yacl.mixins.json does not specify "minVersion" property
-[17June2024 21:29:17.628] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[17June2024 21:29:17.847] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
-[17June2024 21:29:17.847] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[17June2024 21:29:17.862] [main/WARN] [mixin/]: Reference map 'cristellib-common-refmap.json' for cristellib-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[17June2024 21:29:17.862] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
-[17June2024 21:29:27.412] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 46.0.14, for MC 1.20 with MCP 20230608.053357
-[17June2024 21:29:27.413] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v46.0.14 Initialized
-[17June2024 21:29:27.416] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
-[17June2024 21:29:27.416] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
-[17June2024 21:29:27.485] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 6.57.
-[17June2024 21:29:27.597] [modloading-worker-0/INFO] [fancymenu/FancyMenu/]: [FANCYMENU] Loading v2.14.7 in server-side mode!
-[17June2024 21:29:27.663] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
-[17June2024 21:29:27.757] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[17June2024 21:29:29.947] [modloading-worker-0/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading Open Parties and Claims!
-[17June2024 21:29:30.334] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20
-[17June2024 21:29:30.646] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.WaterEffect as a FluidEffect for Water with the ID 0
-[17June2024 21:29:30.646] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.LavaEffect as a FluidEffect for Lava with the ID 1
-[17June2024 21:29:30.648] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.PotionEffect as a FluidEffect for fluid_type.travelersbackpack.potion with the ID 2
-[17June2024 21:29:30.649] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.MilkEffect as a FluidEffect for Milk with the ID 3
-[17June2024 21:29:30.663] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[17June2024 21:29:30.664] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[17June2024 21:29:30.664] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[17June2024 21:29:30.665] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[17June2024 21:29:30.666] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[17June2024 21:29:30.668] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[17June2024 21:29:30.669] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[17June2024 21:29:30.744] [main/INFO] [toughasnails/]: Serene Seasons detected. Enabling season modifier.
-[17June2024 21:29:31.754] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 11.0.0.2 Target: 11.0.0.1
-[17June2024 21:29:31.754] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[17June2024 21:29:31.778] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: UP_TO_DATE Current: 9.0.2 Target: null
-[17June2024 21:29:31.779] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[17June2024 21:29:32.159] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 46.0.14 Target: 46.0.14
-[17June2024 21:29:32.160] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://maxhenkel.de/update/corpse.json
-[17June2024 21:29:32.229] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17June2024 21:29:33.102] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Data/GitHub/BetterSMP/server/libraries/net/minecraft/server/1.20-20230608.053357/server-1.20-20230608.053357-srg.jar%23197!/assets/.mcassetsroot' uses unexpected schema
-[17June2024 21:29:33.103] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Data/GitHub/BetterSMP/server/libraries/net/minecraft/server/1.20-20230608.053357/server-1.20-20230608.053357-srg.jar%23197!/data/.mcassetsroot' uses unexpected schema
-[17June2024 21:29:34.687] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: UP_TO_DATE Current: 1.20-1.0.3 Target: null
-[17June2024 21:29:35.086] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[17June2024 21:29:36.176] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
-[17June2024 21:29:36.300] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1828 advancements
-[17June2024 21:29:36.313] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
-[17June2024 21:29:36.318] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[17June2024 21:29:37.655] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20
-[17June2024 21:29:37.656] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[17June2024 21:29:37.659] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[17June2024 21:29:37.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[17June2024 21:29:37.753] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on bettersmp.mommersco.com:25565
-[17June2024 21:29:37.771] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[17June2024 21:29:38.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:         __    
-[17June2024 21:29:38.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |    |__)   LuckPerms v5.4.102
-[17June2024 21:29:38.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |___ |      Running on Forge - Forge
-[17June2024 21:29:38.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
-[17June2024 21:29:38.248] [Server thread/INFO] [luckperms/]: Loading configuration...
-[17June2024 21:29:38.482] [Server thread/INFO] [luckperms/]: Loading storage provider... [H2]
-[17June2024 21:29:39.200] [Server thread/INFO] [luckperms/]: Loading internal permission managers...
-[17June2024 21:29:39.238] [Server thread/INFO] [luckperms/]: Performing initial data load...
-[17June2024 21:29:39.345] [Server thread/INFO] [luckperms/]: Successfully enabled. (took 9336ms)
-[17June2024 21:29:39.371] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Initializing Open Parties and Claims for the server...
-[17June2024 21:29:39.404] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading server info!
-[17June2024 21:29:39.502] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading player configs...
-[17June2024 21:29:39.699] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded player configs!
-[17June2024 21:29:39.731] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading parties...
-[17June2024 21:29:39.733] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded parties!
-[17June2024 21:29:39.770] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Fixing party inconsistencies...
-[17June2024 21:29:39.832] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered party system for OPAC: default
-[17June2024 21:29:39.847] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered permission system for OPAC: luck_perms
-[17June2024 21:29:39.855] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered permission system for OPAC: permission_api
-[17June2024 21:29:40.052] [Server thread/INFO] [spark/]: Starting background profiler...
-[17June2024 21:29:40.091] [Server thread/INFO] [spark/]: The async-profiler engine is not supported for your os/arch (windowsserver2022/amd64), so the built-in Java engine will be used instead.
-[17June2024 21:29:41.007] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[17June2024 21:29:41.012] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[17June2024 21:29:41.013] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[17June2024 21:29:46.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[17June2024 21:29:49.489] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17June2024 21:29:49.497] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17June2024 21:29:49.507] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17June2024 21:29:49.513] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17June2024 21:29:49.523] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17June2024 21:29:49.525] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17June2024 21:29:49.541] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17June2024 21:29:49.841] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17June2024 21:29:50.343] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17June2024 21:29:50.895] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17June2024 21:29:51.344] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17June2024 21:29:51.839] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
-[17June2024 21:29:52.341] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
-[17June2024 21:29:53.094] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 81%
-[17June2024 21:29:53.379] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
-[17June2024 21:29:53.700] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7361 ms
-[17June2024 21:29:53.700] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (15.702s)! For help, type "help"
-[17June2024 21:29:53.718] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler luckperms:permission_handler
-[17June2024 21:29:53.731] [Server thread/INFO] [puffish_skills/]: [puffish_skills] Configuration loaded successfully!
-[17June2024 21:29:53.733] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading claims...
-[17June2024 21:29:53.733] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded claims in 0ms
-[17June2024 21:29:53.734] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured permission system "prometheus" isn't registered!
-[17June2024 21:29:53.734] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following permission system: luck_perms
-[17June2024 21:29:53.734] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured primary party system "argonauts_guilds" isn't registered!
-[17June2024 21:29:53.734] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following party system as primary: default
-[17June2024 21:29:53.736] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
+[18June2024 10:48:00.089] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 46.0.14, --fml.mcVersion, 1.20, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230608.053357, nogui]
+[18June2024 10:48:00.093] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.11 by Oracle Corporation; OS Windows Server 2022 arch amd64 version 10.0
+[18June2024 10:48:00.470] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Data/GitHub/BetterSMP/server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[18June2024 10:48:00.820] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Data\GitHub\BetterSMP\server\libraries\net\minecraftforge\fmlcore\1.20-46.0.14\fmlcore-1.20-46.0.14.jar is missing mods.toml file
+[18June2024 10:48:00.822] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Data\GitHub\BetterSMP\server\libraries\net\minecraftforge\javafmllanguage\1.20-46.0.14\javafmllanguage-1.20-46.0.14.jar is missing mods.toml file
+[18June2024 10:48:00.825] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Data\GitHub\BetterSMP\server\libraries\net\minecraftforge\lowcodelanguage\1.20-46.0.14\lowcodelanguage-1.20-46.0.14.jar is missing mods.toml file
+[18June2024 10:48:00.827] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Data\GitHub\BetterSMP\server\libraries\net\minecraftforge\mclanguage\1.20-46.0.14\mclanguage-1.20-46.0.14.jar is missing mods.toml file
+[18June2024 10:48:01.013] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 12 dependencies adding them to mods collection
+[18June2024 10:48:02.755] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[18June2024 10:48:02.812] [main/ERROR] [mixin/]: Mixin config yacl.mixins.json does not specify "minVersion" property
+[18June2024 10:48:02.827] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[18June2024 10:48:03.051] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[18June2024 10:48:03.052] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[18June2024 10:48:03.069] [main/WARN] [mixin/]: Reference map 'cristellib-common-refmap.json' for cristellib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[18June2024 10:48:03.070] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[18June2024 10:48:10.080] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[18June2024 10:48:10.081] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 46.0.14, for MC 1.20 with MCP 20230608.053357
+[18June2024 10:48:10.081] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[18June2024 10:48:10.082] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v46.0.14 Initialized
+[18June2024 10:48:10.133] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 6.57.
+[18June2024 10:48:10.260] [modloading-worker-0/INFO] [fancymenu/FancyMenu/]: [FANCYMENU] Loading v2.14.7 in server-side mode!
+[18June2024 10:48:10.299] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[18June2024 10:48:10.371] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[18June2024 10:48:11.745] [modloading-worker-0/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading Open Parties and Claims!
+[18June2024 10:48:11.964] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20
+[18June2024 10:48:12.171] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.WaterEffect as a FluidEffect for Water with the ID 0
+[18June2024 10:48:12.172] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.LavaEffect as a FluidEffect for Lava with the ID 1
+[18June2024 10:48:12.173] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.PotionEffect as a FluidEffect for fluid_type.travelersbackpack.potion with the ID 2
+[18June2024 10:48:12.173] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.MilkEffect as a FluidEffect for Milk with the ID 3
+[18June2024 10:48:12.183] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[18June2024 10:48:12.183] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[18June2024 10:48:12.183] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[18June2024 10:48:12.183] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[18June2024 10:48:12.184] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[18June2024 10:48:12.184] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[18June2024 10:48:12.184] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[18June2024 10:48:12.224] [main/INFO] [toughasnails/]: Serene Seasons detected. Enabling season modifier.
+[18June2024 10:48:13.133] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 11.0.0.2 Target: 11.0.0.1
+[18June2024 10:48:13.133] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[18June2024 10:48:13.159] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: UP_TO_DATE Current: 9.0.2 Target: null
+[18June2024 10:48:13.160] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[18June2024 10:48:13.392] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18June2024 10:48:13.492] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 46.0.14 Target: 46.0.14
+[18June2024 10:48:13.492] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://maxhenkel.de/update/corpse.json
+[18June2024 10:48:14.356] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Data/GitHub/BetterSMP/server/libraries/net/minecraft/server/1.20-20230608.053357/server-1.20-20230608.053357-srg.jar%23197!/assets/.mcassetsroot' uses unexpected schema
+[18June2024 10:48:14.356] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Data/GitHub/BetterSMP/server/libraries/net/minecraft/server/1.20-20230608.053357/server-1.20-20230608.053357-srg.jar%23197!/data/.mcassetsroot' uses unexpected schema
+[18June2024 10:48:15.670] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[18June2024 10:48:15.996] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: UP_TO_DATE Current: 1.20-1.0.3 Target: null
+[18June2024 10:48:16.169] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
+[18June2024 10:48:16.251] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1828 advancements
+[18June2024 10:49:01.277] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[18June2024 10:49:01.292] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[18June2024 10:49:01.917] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20
+[18June2024 10:49:01.918] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[18June2024 10:49:01.919] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[18June2024 10:49:01.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[18June2024 10:49:02.043] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on bettersmp.mommersco.com:25565
+[18June2024 10:49:02.052] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[18June2024 10:49:02.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:         __    
+[18June2024 10:49:02.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |    |__)   LuckPerms v5.4.102
+[18June2024 10:49:02.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |___ |      Running on Forge - Forge
+[18June2024 10:49:02.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[18June2024 10:49:02.298] [Server thread/INFO] [luckperms/]: Loading configuration...
+[18June2024 10:49:02.424] [Server thread/INFO] [luckperms/]: Loading storage provider... [H2]
+[18June2024 10:49:02.668] [Server thread/INFO] [luckperms/]: Loading internal permission managers...
+[18June2024 10:49:02.723] [Server thread/INFO] [luckperms/]: Performing initial data load...
+[18June2024 10:49:02.764] [Server thread/INFO] [luckperms/]: Successfully enabled. (took 50975ms)
+[18June2024 10:49:02.770] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Initializing Open Parties and Claims for the server...
+[18June2024 10:49:02.789] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading server info!
+[18June2024 10:49:02.879] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading player configs...
+[18June2024 10:49:02.927] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded player configs!
+[18June2024 10:49:02.928] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading parties...
+[18June2024 10:49:02.930] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded parties!
+[18June2024 10:49:02.931] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Fixing party inconsistencies...
+[18June2024 10:49:02.985] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered party system for OPAC: default
+[18June2024 10:49:02.985] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered permission system for OPAC: luck_perms
+[18June2024 10:49:02.987] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered permission system for OPAC: permission_api
+[18June2024 10:49:03.107] [Server thread/INFO] [spark/]: Starting background profiler...
+[18June2024 10:49:03.121] [Server thread/INFO] [spark/]: The async-profiler engine is not supported for your os/arch (windowsserver2022/amd64), so the built-in Java engine will be used instead.
+[18June2024 10:49:03.721] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[18June2024 10:49:03.722] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[18June2024 10:49:03.723] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[18June2024 10:49:07.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[18June2024 10:49:10.207] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18June2024 10:49:10.222] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18June2024 10:49:10.227] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18June2024 10:49:10.231] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18June2024 10:49:10.234] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18June2024 10:49:10.239] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18June2024 10:49:10.284] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18June2024 10:49:10.780] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[18June2024 10:49:11.279] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 96%
+[18June2024 10:49:11.294] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4015 ms
+[18June2024 10:49:11.294] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.132s)! For help, type "help"
+[18June2024 10:49:11.306] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler luckperms:permission_handler
+[18June2024 10:49:11.314] [Server thread/INFO] [puffish_skills/]: [puffish_skills] Configuration loaded successfully!
+[18June2024 10:49:11.316] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading claims...
+[18June2024 10:49:11.330] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded claims in 14ms
+[18June2024 10:49:11.330] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured permission system "prometheus" isn't registered!
+[18June2024 10:49:11.331] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following permission system: luck_perms
+[18June2024 10:49:11.331] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured primary party system "argonauts_guilds" isn't registered!
+[18June2024 10:49:11.332] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following party system as primary: default
+[18June2024 10:49:11.333] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
+[18June2024 10:49:31.111] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Black_Ice_Knight is 173c40a0-4542-46e2-a61a-5be4c9f68d6f
+[18June2024 10:49:32.557] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[18June2024 10:49:32.716] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Black_Ice_Knight[/206.83.113.4:65518] logged in with entity id 279 at (121.218591022433, 74.0, 84.87311982298802)
+[18June2024 10:49:32.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Black_Ice_Knight joined the game
+[18June2024 10:49:32.932] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 173c40a0-4542-46e2-a61a-5be4c9f68d6f
+[18June2024 10:49:47.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Black_Ice_Knight has made the advancement [Sweet Dreams]
+[18June2024 10:52:16.244] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Black_Ice_Knight lost connection: Disconnected
+[18June2024 10:52:16.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Black_Ice_Knight left the game
+[18June2024 10:52:16.246] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 173c40a0-4542-46e2-a61a-5be4c9f68d6f
+[18June2024 10:54:24.813] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Black_Ice_Knight is 173c40a0-4542-46e2-a61a-5be4c9f68d6f
+[18June2024 10:54:26.355] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Black_Ice_Knight[/206.83.113.4:26059] logged in with entity id 743 at (-18.098053695000655, 71.0, 48.085342988828465)
+[18June2024 10:54:26.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Black_Ice_Knight joined the game
+[18June2024 10:54:26.397] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 173c40a0-4542-46e2-a61a-5be4c9f68d6f
+[18June2024 10:55:53.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Black_Ice_Knight has made the advancement [Stone Age]
+[18June2024 10:58:13.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Black_Ice_Knight has made the advancement [Getting an Upgrade]
+[18June2024 10:59:54.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Black_Ice_Knight froze to death
+[18June2024 11:00:26.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Black_Ice_Knight: Teleported Black_Ice_Knight to -104.500000, 67.000000, 265.500000]
+[18June2024 11:15:11.340] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player JustJetz is b6446764-10cf-4a4f-bfd2-80617c793128
+[18June2024 11:15:13.298] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: JustJetz[/24.6.122.92:52541] logged in with entity id 5190 at (143.5, 67.0, 164.5)
+[18June2024 11:15:13.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustJetz joined the game
+[18June2024 11:15:13.336] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for b6446764-10cf-4a4f-bfd2-80617c793128
+[18June2024 11:16:14.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustJetz has made the advancement [Alex's Mobs]
+[18June2024 11:17:02.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Black_Ice_Knight: Teleported JustJetz to Black_Ice_Knight]
+[18June2024 11:22:14.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustJetz has made the advancement [Stone Age]
+[18June2024 11:23:47.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Black_Ice_Knight: Gamerule doWeatherCycle is now set to: true]
+[18June2024 11:23:54.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Black_Ice_Knight: Gamerule doSeasonCycle is now set to: true]
+[18June2024 11:24:20.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Black_Ice_Knight: Gamerule logAdminCommands is now set to: true]
+[18June2024 11:24:37.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Black_Ice_Knight: Gamerule playersSleepingPercentage is now set to: 20]
+[18June2024 11:28:57.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: death.attack.hyperthermia
+[18June2024 11:32:36.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustJetz has made the advancement [Monster Hunter]
+[18June2024 11:33:13.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: death.attack.hyperthermia
+[18June2024 11:35:34.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Black_Ice_Knight: Created team [IceKnights]]
+[18June2024 11:35:45.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Black_Ice_Knight: Added Black_Ice_Knight to team [IceKnights]]
+[18June2024 11:37:53.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Black_Ice_Knight was slain by Bison
+[18June2024 11:38:03.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Black_Ice_Knight: Teleported Black_Ice_Knight to -149.500000, 64.000000, 718.500000]
+[18June2024 11:44:39.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: death.attack.hyperthermia
+[18June2024 11:44:48.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Black_Ice_Knight: Teleported Black_Ice_Knight to -74.500000, 73.000000, 773.500000]
+[18June2024 11:44:48.679] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Black_Ice_Knight moved too quickly! -213.0,6.0,612.0
+[18June2024 11:47:48.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustJetz has made the advancement [Convergent Evolution...]
+[18June2024 11:49:05.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Black_Ice_Knight has made the advancement [Convergent Evolution...]
+[18June2024 11:51:47.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustJetz has made the advancement ['X' Marks the Spot]
+[18June2024 11:52:30.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Black_Ice_Knight has made the advancement [Acquire Hardware]
+[18June2024 11:53:08.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustJetz has made the advancement [Suit Up]
+[18June2024 11:59:17.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustJetz has made the advancement [Getting an Upgrade]
+[18June2024 12:09:29.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustJetz was shot by Skeleton
+[18June2024 12:11:15.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Black_Ice_Knight> . /team join
+[18June2024 12:11:16.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustJetz was blown up by Creeper
+[18June2024 12:11:33.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustJetz fell from a high place
+[18June2024 12:13:30.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustJetz has made the advancement [Cobweb Entanglement]
+[18June2024 12:13:36.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustJetz tried to swim in lava
+[18June2024 12:14:51.643] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/49, l='ServerLevel[world]', x=148.70, y=77.00, z=213.30] died, message: 'Villager was slain by Zombie'
+[18June2024 12:15:42.395] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/91, l='ServerLevel[world]', x=148.70, y=70.00, z=205.54] died, message: 'Villager was slain by Zombie'
+[18June2024 12:15:47.493] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/50, l='ServerLevel[world]', x=148.70, y=70.00, z=204.51] died, message: 'Villager was slain by Zombie'
+[18June2024 12:15:54.492] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/45, l='ServerLevel[world]', x=148.70, y=70.00, z=205.70] died, message: 'Villager was slain by Zombie'
+[18June2024 12:15:54.542] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/51, l='ServerLevel[world]', x=148.30, y=70.00, z=205.70] died, message: 'Villager was slain by Zombie Villager'
+[18June2024 12:16:01.742] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/53, l='ServerLevel[world]', x=148.70, y=70.00, z=205.65] died, message: 'Villager was slain by Zombie'
+[18June2024 12:16:06.843] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Armorer'/124, l='ServerLevel[world]', x=148.70, y=70.00, z=202.30] died, message: 'Armorer was slain by Zombie'
+[18June2024 12:16:13.242] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/92, l='ServerLevel[world]', x=148.30, y=70.00, z=202.30] died, message: 'Villager was slain by Zombie'
+[18June2024 12:16:13.742] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Shepherd'/9, l='ServerLevel[world]', x=148.30, y=70.00, z=202.30] died, message: 'Shepherd was slain by Zombie Villager'
+[18June2024 12:18:15.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Black_Ice_Knight has made the advancement [Cobweb Entanglement]
+[18June2024 12:37:13.094] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Black_Ice_Knight lost connection: Disconnected
+[18June2024 12:37:13.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Black_Ice_Knight left the game
+[18June2024 12:37:13.095] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 173c40a0-4542-46e2-a61a-5be4c9f68d6f
+[18June2024 12:41:13.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustJetz fell from a high place
+[18June2024 12:41:54.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustJetz fell from a high place
+[18June2024 12:42:36.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustJetz was blown up by Creeper
+[18June2024 12:42:43.253] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: JustJetz lost connection: Disconnected
+[18June2024 12:42:43.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustJetz left the game
+[18June2024 12:42:43.256] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for b6446764-10cf-4a4f-bfd2-80617c793128
+[18June2024 13:02:00.206] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Black_Ice_Knight is 173c40a0-4542-46e2-a61a-5be4c9f68d6f
+[18June2024 13:02:00.349] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@16668f07[id=173c40a0-4542-46e2-a61a-5be4c9f68d6f,name=Black_Ice_Knight,properties={textures=[com.mojang.authlib.properties.Property@7c41b22]},legacy=false] (/206.83.113.4:45031) lost connection: Disconnected
+[18June2024 13:05:42.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[18June2024 13:05:42.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 0stop<--[HERE]
+[18June2024 13:05:48.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[18June2024 13:05:48.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: save<--[HERE]
+[18June2024 13:05:50.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[18June2024 13:05:50.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: stp[<--[HERE]
+[18June2024 13:05:51.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[18June2024 13:05:51.941] [Server thread/INFO] [luckperms/]: Starting shutdown process...
+[18June2024 13:05:51.953] [Server thread/INFO] [luckperms/]: Closing storage...
+[18June2024 13:05:52.172] [Server thread/INFO] [luckperms/]: Goodbye!
+[18June2024 13:05:52.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[18June2024 13:05:52.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[18June2024 13:05:52.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[18June2024 13:05:52.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18June2024 13:05:53.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18June2024 13:05:53.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18June2024 13:05:53.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18June2024 13:05:53.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18June2024 13:05:53.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18June2024 13:05:53.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18June2024 13:05:54.635] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopping IO worker...
+[18June2024 13:05:54.640] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopped IO worker!
